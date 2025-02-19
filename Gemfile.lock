@@ -120,7 +120,7 @@ GEM
     erubis (2.7.0)
     faker (3.4.2)
       i18n (>= 1.8.11, < 2)
-    ffi (1.17.0)
+    ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
     haml (6.3.0)
@@ -188,6 +188,7 @@ GEM
     pry-byebug (3.10.1)
       byebug (~> 11.0)
       pry (>= 0.13, < 0.15)
+    psych (3.3.4)
     public_suffix (5.1.1)
     puma (4.3.12)
       nio4r (~> 2.0)
@@ -336,11 +337,13 @@ DEPENDENCIES
   dotenv-rails
   erb2haml
   faker
+  ffi (~> 1.15.5)
   hamlit
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   pry-byebug
+  psych (~> 3.1)
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.1)
   rubocop-rails
