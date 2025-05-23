@@ -31,6 +31,7 @@ gem 'hamlit'
 gem 'aws-sdk-s3', require: false
 gem 'psych', '~> 3.1'
 gem 'ffi', '~> 1.15.5'
+gem 'sidekiq'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
